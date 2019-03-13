@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% block content %}
+{{block.super}}
+
+<div class="container-fluid">
+
+<!-- top -->
+
+<h4 style="text-align:right; color:grey;">{{date|date:"l d-F Y"}}</h4>
+
+<div id="church">
+    <img src="static/images/cfc.JPG" class="img-responsive">
+
+    <blockquote>
+        <p>Evangelism, Discipleship & Church Planting</p>
+        <footer>Our Mission</footer>
+    </blockquote>
+
+</div>
+
+<!-- about -->
+    <div class="row" style="background-color:antiquewhite; text-align:right;" id="about"> 
+        <div class="col-md-6">
+        </div>
+            
+        <div class="col-md-6">
+            <h3>OUR CHURCH</h3>
+                <h4>Welcome to The Door Christian Fellowship Church family!</h4>
+                    <p>Our only and burning passion is to build the Church and the Kingdom of God on earth and see the people of our day-to-day being freed to fulfill their purpose and calling. We believe in people – we believe in their potential and also in their incredible ability to influence the world with good.</p><br><br>
+
+                        <button type="button" class="btn info">
+                            <a href="{%url 'about'%}">About Us</a>
+                        </button>
+        </div>
+    </div>
+
+    <!-- program -->
+    <div class="row" id="program">
+        <div class="col-md-6">
+            <h3>DAY TO DAY SCHEDULE</h3>
+            <h4>We have programs to cater for all age groups, people from all walks of life as we believe the church is a place where anyone and everyone is always welcome to fellowship with fellow believers and to hear from God.</h4><br><br>
+
+                <button type="button" class="btn info">
+                    <a href="{%url 'program'%}">Programs</a>
+                </button>
+        </div>
+
+        <div class="col-md-6"></div>
+    </div>
+
+
+    <!-- sermons -->
+    <div class="row" style="background-color:antiquewhite; text-align:right;" id="sermon">
+        <div class="col-md-6"></div>
+            
+        <div class="col-md-6"> 
+            <h3>MISSED OUT ON A CHURCH SERVICE?</h3>
+                <p>Not to worry! We have a collection of all our service sermons in mp3 and mp4 formats for you to listen to.</p><br><br>
+    
+            <button type="button" class="btn info">
+                <a href="{%url 'sermon'%}">Sermons</a>
+            </button>
+        </div>
+    </div>
+
+    <!-- blog -->
+    <div class="row" id="blog">
+        <div class="col-md-6">
+            <h3>OUR BLOG</h3>
+                <p>Read all about the upcoming activities and how we have been able to reach out to our community. We also have stories, thoughts and articles about what Jesus is doing in our world and how we outwork that through our local churches.</p><br><br>
+
+                    <button type="button" class="btn info">
+                        <a href="{%url 'blog'%}">Read More</a>
+                    </button>
+        </div>            
+        <div class="col-md-6"></div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer" style="color:lightgrey; background-color:black; text-align:center;"><br>
+        <p>
+            <img src="static/images/logo.png" class="image-responsive" style="width:250px;"><br>
+            Ayany Estate, near Bus Number 32 Terminus | Nairobi, Kenya.<br>
+            P.O. Box 12345-00500<br>
+            Telephone: (+254) 722 222 222<br>
+            © 2019 The Door CFC Church | All Rights Reserved
+        </p><br>
+    </div>
+
+</div>
+{% endblock %}

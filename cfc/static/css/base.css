@@ -1,0 +1,73 @@
+/* body {
+    background: url("../images/bg3.jpg");
+} */
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h3 {
+    font-family: 'Satisfy', cursive; 
+}
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    font-family: 'Satisfy', cursive; 
+    border-radius: 10px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.btn {
+border: 2px solid black;
+border-radius: 25px;
+background-color: floralwhite;
+color: black;
+padding: 15px 30px;
+font-size: 18px;
+cursor: pointer;
+}
+
+.info {
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+
+.info:hover {
+    background: #2196F3;
+    color: floralwhite;
+}
+
+#church {
+    padding: 50px;
+}
+#about {
+    padding: 100px;
+}
+#program {
+    padding: 100px;
+}
+#sermon {
+    padding: 100px;
+}
+#blog {
+    padding: 100px;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: floralwhite;
+    text-align: center;
+  }
