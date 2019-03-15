@@ -54,16 +54,17 @@ cursor: pointer;
 }
 #program {
     padding: 100px;
+    background: url("../images/hands.jpg");
 }
 #sermon {
     padding: 100px;
 }
 #blog {
     padding: 100px;
+    background: url("../images/up2.png");
+    background-size: cover;
 }
-
 .footer {
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
